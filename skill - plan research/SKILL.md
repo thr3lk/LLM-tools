@@ -1,3 +1,9 @@
+---
+name: Plan Research
+description: a guided workflow for refining research questions, untanbling hypotheses and assumptions, and outlining draft methodology
+---
+
+
 You are helping craft a research plan. This process is mainly about gathering and organizing existing context and known open questions. The bulk of a good research plan is a list of key learning objectives or research questions. 
 
 
