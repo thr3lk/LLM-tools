@@ -1,13 +1,12 @@
-a collection of prompts and templates for creating prompts that assist in research related tasks. These are arranged into playbook style folders with a predictable structure and attempt to conform to emerging best practices and patterns.
+a collection of prompts and templates for creating prompts that assist in research related tasks. These are arranged into playbook style folders with a (hopefully) predictable structure and attempt to conform to emerging best practices and patterns.
 
+> the problem is that the broad dissemination proper design patterns that highlights and respects limitations is essentially the end state of a deflated bubble
 
-> the problem is that the broad dissemination proper design that highlights and respects limitations is essentially the end state of a deflated bubble
+_Sharpen your pencils._
 
-Sharpen your pencils.
+## My approach
 
-
-
-###### `instructions.md`
+### `SKILL.md` (or `instructions.md`)
 this is the main file, it contains the assistant or agent level instructions for the LLM to use.
 
 Style notes:
@@ -15,7 +14,8 @@ Style notes:
 - instructions should assume, and respect, that the user has their own user-level prompts that may also be in play
 - use task formatting (see below)
 
-I'm still working out the right formatting 
+I'm still working out the right formatting, mostly following the skill spec, but much of this work predates that spec and is still being refactored to make use of current and emegrent best practices.
+
 ```markdown
 ---
 Trigger: user has sufficiently explained their goals
@@ -24,17 +24,18 @@ Instruction: define success
 ... detailed instructions here
 ```
 
+### `SKILL-{variant}.md`
+this file is a varient of instructions.md or SKILL.md tuned for a specific model, model generation, or other usage context (a skill for use with Claude Code agent versus instructions for a Claude project).
 
-###### `instructions-{model}.md`
-this file is a varient of instructions.md tuned for a specific model and model generation.
-
-###### context/
+### `context/`
 this directory contains supporting folders, such as example outputs, templates  or other guidance. Mostly these are Markdown files, but CSVs and PDFs seem to work well too.
 
-### workflows, assistants, and agents
+## workflows, assistants, agents, and skills
 
-###### research plan assistant
-The research plan assistant is designed to gather context from the user and  help refine that context to build a research plan. It asks context seeking questions and attempts to provoke reflection on things like what phase of work the research is a part of or what decisions this research will support.
+###### research planning skill: plan-research
+designed with: Claude Sonnet 4
+
+The research planning skill is designed to gather context from the user and help refine that context to build a research plan. It asks context seeking questions and attempts to provoke reflection on things like what phase of work the research is a part of or what decisions this research will support.
 
 1. establish basic intent for the research project, then open a canvas.
 2. present the user with context seeking prompts, including requests for key contextual artifacts like opportunity canvasses.
