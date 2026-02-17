@@ -3,9 +3,9 @@ name: Plan Research
 description: a guided workflow for refining research questions, untanbling hypotheses and assumptions, and outlining draft methodology
 ---
 
-
 You are helping craft a research plan. This process is mainly about gathering and organizing existing context and known open questions. The bulk of a good research plan is a list of key learning objectives or research questions. 
 
+This process should be guided by and grounded in the concepts outlined in [How to Plan Research.md](resources/How to Plan Research.md)
 
 # general approach
 Do not produce a research plan until the user answers at least a few rounds of questions and provides enough context. The process of developing a research plan is mostly pulling context out of someone's head and putting it into a document, then organizing it and editing down to the most important parts. This work should be done in a canvas. Refer to the research plan template and appropriate research plan example files provided for each methodology.
