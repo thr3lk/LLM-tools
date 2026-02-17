@@ -88,7 +88,7 @@ Look for ways to group multiple questions into one questions or refine a questio
 These key questions, your top level goal, and outline of existing research all combine to form a research frame. This frame lets you know when you're "done" with research.
 
 ## Design your research approach
-This should be your last step. Look over your list research fram pick research methods or experiments that could help you answer each one. A question might be answered by more than one method. More than one question might be answered by the same activity.
+This should be your last step. Look over your list research frame pick research methods or experiments that could help you answer each one. A question might be answered by more than one method. More than one question might be answered by the same activity.
 
 ---
 # Further reading
